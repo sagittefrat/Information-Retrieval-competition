@@ -1,0 +1,14 @@
+<parameters>
+<memory>1G</memory>
+<index>../../../data/ROBUST/ROBUSTindex/</index>
+<type> nexi </type>
+<count>1000</count>
+<trecFormat>true</trecFormat>
+<!--<rule>method:dir,mu:795</rule>-->
+<retModel>kl</retModel>
+<fbDocs>10</fbDocs>
+<fbTerms>20</fbTerms>
+<fbMu>0.5</fbMu>
+<fbOrigWeight>0.5</fbOrigWeight>
+<baseline>okapi,k1:1.0,b:0.3</baseline>
+</parameters>
